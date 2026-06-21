@@ -3,6 +3,7 @@ version: "3.8"
 services:
   http:
     build: .
+    image: webserver
     container_name: webserver
     ports:
     - "90:80"
