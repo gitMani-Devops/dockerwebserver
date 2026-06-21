@@ -1,0 +1,9 @@
+
+version: "3.8"
+services:
+  http:
+    build: .
+    container_name: webserver
+    ports:
+    - "90:80"
+
